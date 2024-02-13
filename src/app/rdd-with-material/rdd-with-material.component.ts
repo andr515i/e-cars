@@ -17,7 +17,7 @@ export class RddWithMaterialComponent {
 
   tableDivStyle =
     'hidden';
-
+    displayedColumns: string[] = ['rank', 'model' , 'quantity', 'changeQuantityPercent'];
 
   toggleChanged(event: any) {
     if (event.checked) {
